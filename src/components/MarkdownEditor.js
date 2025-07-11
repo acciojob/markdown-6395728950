@@ -6,7 +6,7 @@ const MarkdownEditor = (props) => {
     <div>
         <textarea  className='textarea' onChange={(e)=>setText(e.target.value)}></textarea>
 
-        <h1 className='preview'>{text}</h1>
+        <p className='preview'><h1>{text}</h1></p>
     </div>
   )
 }
