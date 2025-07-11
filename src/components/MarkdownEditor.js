@@ -4,9 +4,10 @@ const MarkdownEditor = (props) => {
     const{text,setText}  = props;
   return (
     <div>
+      <h1>UI Mockup</h1>
         <textarea  className='textarea' onChange={(e)=>setText(e.target.value)}></textarea>
 
-        <div className='preview'><h1 style={{fontWeight:'bold'}}>{text}</h1> </div>
+        <div className='preview'>{text} </div>
         
     </div>
   )
